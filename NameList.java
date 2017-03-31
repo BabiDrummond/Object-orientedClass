@@ -103,7 +103,7 @@ public class NameList {
 				case 0:Names = loadList(Names, "people.txt");break;
 				case 1:Names = addName(Names, readName());break;
 				case 2:printList(Names);break;
-				case 4:writeList(Names,"people.txt");break;
+				case 3:writeList(Names,"people.txt");break;
 				case 9:System.out.println("End");
 			}
 			System.out.print("\f");
